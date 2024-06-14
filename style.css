@@ -1,0 +1,475 @@
+
+header{
+    width: 13%;
+    height: 100vh;
+    position: sticky;
+    color: white;
+    background-color: black;
+    top: 0;
+    padding: 20px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    display: flex;
+    background-color: black;
+    margin: 0;
+}
+main{
+    width: 87%;
+    background-image: url(img_9.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    
+    
+}
+#letra1{
+    font-size: 20px;
+    color: white;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+}
+.letra{
+    font-size: .8rem;
+    color: white;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";;
+    
+  
+}
+#principal a:hover{
+    color: #df0e62;
+}
+
+#welcome{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+#welcome p{
+    width: 60%;
+    font-weight: 200;
+    font-size: 20px;
+    font-family: "Quicksand", sans-serif;
+}
+#welcome h1{
+    font-weight: 400;
+    font-size: 64px;
+    font-family: "Oswald", sans-serif;
+}
+.logo{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 6px;
+    margin-top: 3%;
+}
+
+.logoface{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin: 6px;
+    margin-top: 3%;
+}
+#principal{
+    align-items: center;
+    vertical-align: top;
+}
+#contact{
+    display: inline-block;
+    width: 164px;
+    height: 53px;
+    background-color: #df0e62;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 53px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Quicksand", sans-serif;
+}
+#foto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: black;
+    row-gap: 6px;
+}
+#foto div{
+    height: 300px;
+    width: 33%;
+    overflow: hidden;
+    position: relative;
+
+}
+#foto img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: 1s;
+}
+#foto svg{
+    fill: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 30px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 1s;
+}
+#foto div:hover svg{
+    top: 50%;
+    opacity: 1;
+}
+#foto div:hover img{
+    filter: brightness(50%);
+}
+#testimonial{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+
+}
+#testimonial div{
+    background-color: black;
+    text-align: center;
+}
+#testimonial img{
+    border-radius: 100%;
+    width: 12%;
+    
+    
+}
+#testimonial svg{
+    width: 10px;
+
+}
+#testimonial button:hover{
+    background-color: #df0e62;
+}
+#testimonial button{
+    border-radius: 100%;
+    background-color: #1a1a1a;
+    border: none;
+    width: 50px;
+    height: 50px;
+    
+    
+}
+#btn{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+#titulotest{
+    font-size: 64px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    color: white;
+
+}
+#Jean{
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    justify-content: center;
+    color: white;
+}
+#lorem2{
+    font-family: "Quicksand", sans-serif;
+    color: gray;
+    font-size: 16px;
+    width: 50%;
+    line-height: 1.7;
+    margin-top: 2%;
+
+    
+}
+#doisbtn button{
+    width: 5px;
+    height: 12px;
+    border-radius: 50% ;
+    
+
+}
+#doisbtn{
+    margin-top: 3%;
+    margin-bottom: 8%;
+    
+}
+#biography{
+    background-color: #1a1a1a;
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+#titulobio{
+    color: white;
+    font-family:"Oswald", sans-serif;
+    margin-top: 8%;
+    font-size: 64px;
+
+}
+
+#biography img{
+    width: 256px;
+    height: 256px;
+    margin-top: 3%;
+}
+#allbio{
+    position: relative;
+    top: 1%;
+    left: 14%;
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+}
+
+
+
+.subtitles{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.75rem;
+    color: white;
+    line-height: 1.2;
+    margin-top: 5%;
+    
+}
+.loremjed{
+    font-size: 16px;
+    color: #808080;
+    font-family: "Quicksand", sans-serif;
+    margin-top: 2%;
+    
+}
+.linkjed{
+    text-decoration: none;
+    color: #df0e62;
+}
+#barrarosa{
+    width: 100px;
+    height: 4px;
+    background-color: #df0e62;
+}
+#ul{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    
+
+}
+#ul div{
+    font-size: 16px;
+    margin-top: 10%;
+    color: #808080;
+    font-family: "Quicksand", sans-serif;
+
+}
+#ul li{
+    list-style: none;
+    margin-top: 10px;
+
+}
+#ul svg{
+    width: 4%;
+    margin-right: 5%;
+}
+#blog{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 20%;
+    
+
+}
+#tituloblog{
+    color: white;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    margin-top: 10%;
+    margin-left: 22%;
+
+    
+}
+.sectionblog{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 22%;
+}
+.titulo2b{
+    font-size: 24px;
+    font-family: "Oswald", sans-serif;
+    color: white;
+    margin-left: -55%;
+}
+.textoblog{
+    color: #808080;
+    font-family: "Quicksand", sans-serif;
+    margin-left: -55%;
+}
+.subtitleblog{
+    color: #737373;
+    font-family: "Quicksand", sans-serif;
+    margin-left: -55%;
+}
+#blog a{
+    text-decoration: none;
+    color: #df0e62;
+}
+#blog img{
+    width: 70%;
+    margin-top: 20%;
+    margin-bottom: -10%;
+}
+#pgsblog{
+    background-color: black;
+    display: flex;
+    position: absolute;
+    margin-top: 30%;
+    color: #6c757d;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27%;
+    font-family: "Oswald", sans-serif;
+}
+#pgsblog button{
+    background: black;
+    color: #df0e62;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    font-size: 16px;
+    margin-top: -8px;
+    margin-left: 5%;
+    border-radius: 50%; 
+    width: 70px;
+    height: 40px;
+    
+   
+}
+#pgsblog span{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+#pgsblog button:hover{
+    background-color: #df0e62;  
+    color: white;   
+}           
+#fundocontact{
+width: 100%;
+background-color: #1a1a1a;
+display: flex;
+position: relative;
+height: 125vh;
+
+}
+
+#contactall{
+    position: relative;
+    top: 9%;
+    left: 14%;
+    display: flex;
+    flex-direction: column;
+    width: 77%; 
+}
+#titulocontact{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 64px;
+    margin-bottom: 2%;
+    
+
+}
+#name{
+    display: flex;
+    flex-direction: row;
+    width: 75.5%;
+}
+#contactall input{
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 5px;
+    width: 75%;
+    
+    
+}
+#contactall input:focus{
+    border-bottom: 2px solid white;
+    outline: none;
+}
+.textocontact{
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: lighter;
+    margin-top: 2%;
+    font-size: 19px;
+    margin-bottom: 3%;
+    font-weight: lighter;
+    
+}
+#espaçocontact{
+    margin-left: 30%;
+}
+
+#contactall textarea{
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: transparent;
+    height: auto;
+    display: block;
+    font-size: medium;
+    color: white;
+}
+#contactall textarea:focus{
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+#contactbtn{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    border-radius: 30px;
+    background-color: #df0e62;
+    border-color: #df0e62;
+    color: white;
+    border: none;
+    line-height: 1.5;
+    margin-top: 5%;
+}
+
+#copyright{
+    background-color: black;
+    font-family: "Quicksand", sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 4%;
+    letter-spacing: 1px;
+}
